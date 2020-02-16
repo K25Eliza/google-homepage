@@ -1,0 +1,117 @@
+html { 
+    c  background-image: url("https://lh4.googleusercontent.com/proxy/M76Tmd1Z97RRZ1ZCvSRtaFIRh4ThWgrF2MQIIvwzKi__qd5hfVvDx-R47uudd0m27HBOgF22X1CqnFjzWDNsMVjhomTsZSz6CHb4n4DQdNxR=w3840-h2160-p-k-no-nd-mv");
+  background: url() no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+}
+
+a {
+    font-family: arial, sans-serif;
+    color: #ffff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    height: 60px;
+    width: 99%;
+    margin: 0;
+    padding: 0;
+    word-spacing: 10px;
+}
+
+#header p.top-left {
+    float: left;
+}
+   
+#header p.top-right {
+    float: right;
+}
+#user {
+    height: 42px;
+    width: 42px;
+    margin: 3px 6px 0px 1px;
+    background-image: url(https://lh3.googleusercontent.com/-KlZF44q5M7c/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcEpLg60tx2zhlmQA82mhrOeF-CUw/photo.jpg?sz=46);
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+main {
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+#logo {
+    display: block;
+    width: 90px;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-box {
+    background-image: url(../images/mag.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px;
+    margin-left: -230px;
+    width: 500px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 100px;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    font-size: 1em;
+    z-index: 1;
+}
+
+#search-box:hover, #search-box:focus {
+    box-shadow: 0 1px 6px 3px #dfe1e5;
+    border-color: #ffff;
+    
+}
+#search {
+  margin-top: -21px;
+  margin-left: 695px;
+  vertical-align: middle;
+  position:absolute;
+  z-index: 2;
+}
+
+#voice {
+  margin-top: -18px;
+  margin-left: 1300px;
+  vertical-align: middle;
+  position:absolute;
+  z-index: 2;
+  border-color: #ffff;
+}
+#CIMAGE {
+    border-radius: 8px;
+    bottom: 16px;
+    color: ffff;
+    font-weight: 500;
+    left: 16px;
+    padding: 8px;
+    position: fixed;
+    z-index: -1;
+}
